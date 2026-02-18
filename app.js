@@ -53,8 +53,6 @@ app.use(
   })
 );
 
-// Explicitly handle preflight
-app.options("*", cors());
 
 /* ================= MIDDLEWARE ================= */
 app.use(express.json());
